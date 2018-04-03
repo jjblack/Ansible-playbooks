@@ -1,1 +1,5 @@
 ---
+tasks:
+  - name: install nginx
+    yum:
+      name: nginx
